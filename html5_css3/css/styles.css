@@ -1,0 +1,17 @@
+body {
+    background: #CCC;
+}
+
+p, h1 {
+    text-align: center;
+}
+
+#missao {
+    font-size: 20px;
+}
+
+/* busque todos os strong que estão dentro da tag em */
+em strong {
+    color: #FF0000;
+}
+
