@@ -28,6 +28,11 @@ nav a {
     text-transform: uppercase;
 }
 
+nav a:hover {
+    color: #C78C19;
+    text-decoration: underline;
+}
+
 .produtos {
     margin: 0 auto;
     padding: 50px 0;
