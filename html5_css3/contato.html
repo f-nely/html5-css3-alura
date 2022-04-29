@@ -26,13 +26,29 @@
     <main>
         <form action="" method="GET">
             <label for="nomesobrenome">Nome e sobrenome</label>
-            <input type="text" name="nomesobrenome" id="nomesobrenome">
+            <input type="text" name="nomesobrenome" id="nomesobrenome" class="input-padrao">
 
             <label for="email">Email</label>
-            <input type="email" name="email" id="email">
+            <input type="email" name="email" id="email" class="input-padrao">
 
             <label for="telefone">Telefone</label>
-            <input type="tel" name="telefone" id="telefone">
+            <input type="tel" name="telefone" id="telefone" class="input-padrao">
+
+            <label for="mensagem">Mensagem</label>
+            <textarea name="mensagem" id="mensagem" cols="30" rows="10" class="input-padrao"></textarea>
+            
+            <div>
+                <p>Como prefere o nosso contato?</p>
+
+                <label for="radio-email"><input type="radio" name="contato" value="radio-email" id="radio-email"> Email</label>
+
+                <label for="radio-telefone"><input type="radio" name="contato" value="radio-telefone" id="radio-telefone"> Telefone</label>
+                
+                <label for="radio-whatsapp"><input type="radio" name="contato" value="radio-whatsapp" id="radio-whatsapp"> WhatsApp</label>
+                
+            </div>
+
+            <label class="checkbox"><input type="checkbox">Gostaria de receber nosso contato por email?</label>
 
             <input type="submit" value="Enviar formulário">
         </form>
