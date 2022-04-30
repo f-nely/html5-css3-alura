@@ -130,10 +130,12 @@ form label, form legend {
     font-size: 18px;
     font-weight: bold;
     padding: 15px 0;
-    transition: 1s background;
+    transition: 1s all;
     width: 40%;
 }
 
 .btn-enviar:hover {
     background: #FF8C00;
+    transform: scale(1.2);
+    /* transform: rotate(70deg) scale(1.2); */
 }
