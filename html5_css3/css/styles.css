@@ -140,6 +140,10 @@ form label, form legend {
     /* transform: rotate(70deg) scale(1.2); */
 }
 
+form, table {
+    font-family: 'Open Sans', sans-serif;
+}
+
 table {
     margin: 20px 0 40px; /* top laterais bottom */
 }
