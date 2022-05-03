@@ -1,3 +1,6 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
 header {
     background: #BBB;
     padding: 20px 0;
@@ -138,10 +141,6 @@ form label, form legend {
     background: #FF8C00;
     transform: scale(1.2);
     /* transform: rotate(70deg) scale(1.2); */
-}
-
-form, table {
-    font-family: 'Open Sans', sans-serif;
 }
 
 table {
