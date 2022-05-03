@@ -200,3 +200,8 @@ td, th {
     margin-bottom: 2em;
     text-align: center;
 }
+
+.video {
+    margin: 1em auto;
+    width: 560px;
+}
