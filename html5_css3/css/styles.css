@@ -98,11 +98,6 @@ footer {
 }
 
 /* página de contato */
-main {
-    width: 940px;
-    margin: 0 auto;
-}
-
 form {
     margin: 40px 0;
 }
@@ -163,17 +158,11 @@ td, th {
     width: 100%;
 }
 
-.titulo-principal {
-    clear: left;
-    font-size: 2em;
-    margin-bottom: 1em;
-    text-align: center;
-}
-
-.utensilios {
-    float: left;
-    margin: 0 20px 20px 0;
-    width: 120px;
+.principal {
+    background: #EFEFEF;
+    margin: 0 auto;
+    padding: 3em 0;
+    width: 940px;
 }
 
 .principal p {
@@ -188,8 +177,28 @@ td, th {
     font-style: italic;
 }
 
+.titulo-principal {
+    clear: left;
+    font-size: 2em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.utensilios {
+    float: left;
+    margin: 0 20px 20px 0;
+    width: 120px;
+}
+
 .mapa {
+    background: linear-gradient(#FEFEFE, #888);
     padding: 3em 0;
+
+}
+
+.mapa-conteudo {
+    margin: 0 auto;
+    width: 940px;
 }
 
 .mapa p {
@@ -199,6 +208,7 @@ td, th {
 
 .beneficios {
     padding: 3em 0;
+    background: #888;
 }
 
 .conteudo-beneficios {
