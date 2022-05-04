@@ -258,21 +258,21 @@ td, th {
     width: 560px;
 }
 
-/* Seletores avançados */
-/* selecionar o parágrafo que vem depois da main */
+/* Seletores avançados
+   selecionar o parágrafo que vem depois da main
 main > p {
     background: #0088BA;
 }
 
-/* selecionar o 1º irmão da imagem */
+   selecionar o 1º irmão da imagem 
 img + p {
     background: #DD23FF;
 }
-/* selecionar todos os parágrafos que vem depois da imagem */
+   selecionar todos os parágrafos que vem depois da imagem
 img ~ p {
     background: #88EEDD;
 }
 
 .principal p:not(#missao) {
     background: #32A852;
-}
+}/*
