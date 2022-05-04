@@ -179,7 +179,6 @@ td, th {
 
 .titulo-principal {
     clear: left;
-    color: rgba(0, 0, 0, .3);
     font-size: 2em;
     margin-bottom: 1em;
     text-align: center;
@@ -251,6 +250,7 @@ td, th {
 }
 
 .imagem-beneficios {
+    box-shadow: 10px 10px 10px #000;
     opacity: 1;
     transition: 400ms;
     width: 60%;
