@@ -179,6 +179,7 @@ td, th {
 
 .titulo-principal {
     clear: left;
+    color: rgba(0, 0, 0, .3);
     font-size: 2em;
     margin-bottom: 1em;
     text-align: center;
@@ -250,7 +251,13 @@ td, th {
 }
 
 .imagem-beneficios {
+    opacity: 1;
+    transition: 400ms;
     width: 60%;
+}
+
+.imagem-beneficios:hover {
+    opacity: 0.3;
 }
 
 .video {
